@@ -1,13 +1,9 @@
-from anaflow import theis, ext_theis_2d
 import scipy.special as sc
 import numpy as np
 from scipy.special import expi
 from mpmath import *
 mp.dps = 10; mp.prec = 60; mp.pretty = True
 import matplotlib.pyplot as plt
-import pandas as pd
-from scipy.optimize import curve_fit
-from scipy.optimize import differential_evolution
 import warnings
 def app_ext_theis_2d(time, rad, S, TG, var, Len_scale, rate):
     zeta = 1.6
